@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-#cacheSolve is required to populate and/or retrieve the mean from an object
+#cacheSolve is required to populate and/or retrieve the inverse from a matrix
 
 cacheSolve <- function(x, ...) {
         m <- x$getsolve()
